@@ -84,9 +84,12 @@ cd mushroom-edibility-classification
 # Install dependencies
 pip install -r requirements.txt
 
+
 # Run Jupyter Notebook
 jupyter notebook notebooks/Mushroom_Classification.ipynb
 
 📜 License
 
 This project is licensed under the MIT License.
+
+📄 Note: This was a collaborative academic project.
