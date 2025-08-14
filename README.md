@@ -62,27 +62,22 @@ Target Variable: class → 0 = Poisonous, 1 = Edible
 While these models provide scientifically grounded guidance, mushroom foraging carries inherent risks. Always cross-reference findings with expert field guides and, when possible, consult mycologists before consumption.
 
 # 📂 Project Structure
-mushroom-edibility-classification/
-│
-├── data/
-│   └── mushroom_cleaned.csv
-│
-├── notebooks/
-│   └── Mushroom_Classification.ipynb
-│
-├── src/
-│   └── preprocessing.py
-│   └── models.py
-│
-├── results/
-│   ├── model_comparison.png
-│   ├── feature_importance.png
-│
-├── README.md
-└── requirements.txt
+- mushroom-edibility-classification/
+  - data/
+    - mushroom_cleaned.csv
+- notebooks/
+  - Mushroom_Classification.ipynb
+- src/
+  - preprocessing.py
+  - models.py
+- results/
+  - model_comparison.png
+  - feature_importance.png
+- README.md
+- requirements.txt
 
 # ⚙️ Installation & Usage
-# Clone the repository
+* Clone the repository
 git clone https://github.com/Nathania888/mushroom-edibility-classification.git
 cd mushroom-edibility-classification
 
