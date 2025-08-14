@@ -37,11 +37,15 @@ Logistic Regression
 Neural Network (MLPClassifier)
 
 📈 Model Comparison
-Model	Accuracy	ASE	Top Features	Notes
-Random Forest	99.06%	0.009973	Log Stem Width, Gill Attachment, Stem Color, Cap Diameter, Log Stem Height	Best overall performance, robust results
-Decision Tree	97.67%	Low	Gill Color, Stem Color, Season	Highly interpretable, good accuracy
-Neural Network	74.07%	0.176319	Not directly interpretable	Captures complex patterns
-Logistic Regression	62.92%	0.221959	Log Stem Height, Season, Log Stem Width	Useful for feature directionality
+
+| Model             | Accuracy | ASE       | Top Features                                                                 | Notes                                                |
+|-------------------|----------|-----------|-------------------------------------------------------------------------------|------------------------------------------------------|
+| Random Forest     | 99.06%   | 0.009973  | Log Stem Width, Gill Attachment, Stem Color, Cap Diameter, Log Stem Height   | Best overall performance, robust results            |
+| Decision Tree     | 97.67%   | Low       | Gill Color, Stem Color, Season                                                | Highly interpretable, good accuracy                  |
+| Neural Network    | 74.07%   | 0.176319  | Not directly interpretable                                                     | Captures complex patterns                            |
+| Logistic Regression| 62.92%  | 0.221959  | Log Stem Height, Season, Log Stem Width                                       | Useful for understanding feature directionality      |
+
+
 🌟 Key Insights for Foragers
 
 Stem Width: Consistently the strongest predictor of edibility.
