@@ -1,11 +1,11 @@
-🍄 Mushroom Edibility Classification
+# 🍄 Mushroom Edibility Classification
 📌 Overview
 
 This project applies machine learning techniques to classify mushrooms as edible or poisonous, providing data-driven guidance for vegetarian foragers. Using the mushroom_cleaned dataset from Kaggle, we explore feature importance and predictive performance across multiple models to identify key traits associated with safe mushroom consumption.
 
 Our goal is to create a reliable, interpretable, and scientifically grounded tool that supports safer mushroom foraging decisions.
 
-📊 Dataset
+# 📊 Dataset
 
 Source: Kaggle - Mushroom Cleaned Dataset
 
@@ -15,7 +15,7 @@ Features: 9 mushroom characteristics (cap diameter, cap shape, gill attachment, 
 
 Target Variable: class → 0 = Poisonous, 1 = Edible
 
-🔍 Methodology
+# 🔍 Methodology
 Data Preprocessing
 
 Log transformation for skewed variables (stem_height, stem_width)
@@ -36,7 +36,7 @@ Logistic Regression
 
 Neural Network (MLPClassifier)
 
-📈 Model Comparison
+#📈 Model Comparison
 
 | Model             | Accuracy | ASE       | Top Features                                                                 | Notes                                                |
 |-------------------|----------|-----------|-------------------------------------------------------------------------------|------------------------------------------------------|
