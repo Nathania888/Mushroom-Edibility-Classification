@@ -36,7 +36,7 @@ Logistic Regression
 
 Neural Network (MLPClassifier)
 
-#📈 Model Comparison
+# 📈 Model Comparison
 
 | Model             | Accuracy | ASE       | Top Features                                                                 | Notes                                                |
 |-------------------|----------|-----------|-------------------------------------------------------------------------------|------------------------------------------------------|
@@ -46,7 +46,7 @@ Neural Network (MLPClassifier)
 | Logistic Regression| 62.92%  | 0.221959  | Log Stem Height, Season, Log Stem Width                                       | Useful for understanding feature directionality      |
 
 
-🌟 Key Insights for Foragers
+# 🌟 Key Insights for Foragers
 
 Stem Width: Consistently the strongest predictor of edibility.
 
@@ -58,11 +58,11 @@ Cap Shape: Rounded/convex caps often linked with edible mushrooms.
 
 Seasonality: Certain seasons have higher correlation with edibility.
 
-⚠️ Disclaimer
+# ⚠️ Disclaimer
 
 While these models provide scientifically grounded guidance, mushroom foraging carries inherent risks. Always cross-reference findings with expert field guides and, when possible, consult mycologists before consumption.
 
-📂 Project Structure
+# 📂 Project Structure
 mushroom-edibility-classification/
 │
 ├── data/
