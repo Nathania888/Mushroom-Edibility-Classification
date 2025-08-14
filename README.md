@@ -16,25 +16,25 @@ Features: 9 mushroom characteristics (cap diameter, cap shape, gill attachment, 
 Target Variable: class → 0 = Poisonous, 1 = Edible
 
 # 🔍 Methodology
-Data Preprocessing
+- Data Preprocessing
 
-Log transformation for skewed variables (stem_height, stem_width)
+- Log transformation for skewed variables (stem_height, stem_width)
 
-Dropped original skewed variables after transformation
+- Dropped original skewed variables after transformation
 
-Train-validation split (70% / 30%) with stratification
+- Train-validation split (70% / 30%) with stratification
 
-No missing values detected
+- No missing values detected
 
-Models Used
+- Models Used
 
-Decision Tree Classifier
+- Decision Tree Classifier
 
-Random Forest Classifier
+- Random Forest Classifier
 
-Logistic Regression
+- Logistic Regression
 
-Neural Network (MLPClassifier)
+- Neural Network (MLPClassifier)
 
 # 📈 Model Comparison
 
@@ -47,16 +47,15 @@ Neural Network (MLPClassifier)
 
 
 # 🌟 Key Insights for Foragers
+* Stem Width: Consistently the strongest predictor of edibility.
 
-Stem Width: Consistently the strongest predictor of edibility.
+* Gill Attachment & Color: Strongly associated with safe mushrooms.
 
-Gill Attachment & Color: Strongly associated with safe mushrooms.
+* Stem Color: Standard stem colors (white, cream, brown) are safer indicators.
 
-Stem Color: Standard stem colors (white, cream, brown) are safer indicators.
+* Cap Shape: Rounded/convex caps are often linked with edible mushrooms.
 
-Cap Shape: Rounded/convex caps often linked with edible mushrooms.
-
-Seasonality: Certain seasons have higher correlation with edibility.
+* Seasonality: Certain seasons have a higher correlation with edibility.
 
 # ⚠️ Disclaimer
 
@@ -82,9 +81,9 @@ mushroom-edibility-classification/
 ├── README.md
 └── requirements.txt
 
-⚙️ Installation & Usage
+# ⚙️ Installation & Usage
 # Clone the repository
-git clone https://github.com/yourusername/mushroom-edibility-classification.git
+git clone https://github.com/Nathania888/mushroom-edibility-classification.git
 cd mushroom-edibility-classification
 
 # Install dependencies
